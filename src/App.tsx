@@ -34,7 +34,7 @@ function App() {
       <Container className="my-4">
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/" element={<h1>Helloe</h1>} />
+          <Route path="/" element={<h1>Hello</h1>} />
           <Route path="/new" element={<NewNote />} />
           <Route path="/:id">
             <Route index element={<h1>Show</h1>} />
