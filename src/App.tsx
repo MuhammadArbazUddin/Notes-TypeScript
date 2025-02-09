@@ -38,7 +38,7 @@ function App() {
           <Route path="/new" element={<NewNote />} />
           <Route path="/:id">
             <Route index element={<h1>Show</h1>} />
-            <Route path="edit" element={<h1>Edit</h1>} />
+            <Route path="edit" element={<h1>Edita/</h1>} />
           </Route>
         </Routes>
       </Container>
